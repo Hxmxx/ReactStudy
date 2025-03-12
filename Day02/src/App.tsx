@@ -1,11 +1,13 @@
 //import Compo from './CompoExtract'
-import ChildProps from './ChildProps';
+// import ChildProps from './ChildProps';
+import Conditioner from "./Conditioner";
 
 const App = () => {
   return(
     <div>
       {/* <Compo /> */}
-      <ChildProps />
+      {/* <ChildProps /> */}
+      <Conditioner />
     </div>
   )
 }
