@@ -1,5 +1,6 @@
 import './MapTest3.css'
 
+
 interface CardProps {
     person: {
         name: string;

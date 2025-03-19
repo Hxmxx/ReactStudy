@@ -2,7 +2,9 @@
 // import MapTest2 from './MapTest2'
 // import PackingList from './ConditionJsx1'
 // import MapPackingList from './ConditionJsx2'
-import MapTest3 from './MapTest3'
+// import MapTest3 from './MapTest3'
+// import MapTest4 from "./MapTest4"
+import PostList from "./PostList"
 
 function App() {
 
@@ -12,7 +14,9 @@ function App() {
       {/* <MapTest2 /> */}
       {/* <PackingList /> */}
       {/* <MapPackingList /> */}
-      <MapTest3 />
+      {/* <MapTest3 /> */}
+      {/* <MapTest4 /> */}
+      <PostList />
     </>
   )
 }
