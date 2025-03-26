@@ -1,6 +1,7 @@
 import './App.css'
 //import InputText from './inputText/inputText'
-import InputTest1 from './inputTest1/inputTest1'
+// import InputTest1 from './inputTest1/inputTest1'
+import InputTest2 from './inputTest2/inputTest2'
 
 function App() {
 
@@ -17,7 +18,8 @@ function App() {
   return (
     <>
       {/* <InputText /> */}
-      <InputTest1 />
+      {/* <InputTest1 /> */}
+      <InputTest2 />
     </>
   )
 }
