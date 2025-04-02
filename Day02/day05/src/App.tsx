@@ -1,14 +1,13 @@
 import './App.css'
 //import ProfileForm from './ProfileForm.tsx'
 //import ProfileFormImmer from './PrifileFormImmer.tsx'
-// import UserAdd from './UserAdd'
-import UserModify from "./UserModify.tsx";
+import UserAdd from './UserAdd'
 
 function App() {
 
   return (
     <>
-        <UserModify />
+        <UserAdd />
     </>
   )
 }
