@@ -1,5 +1,6 @@
 import {useState, useEffect} from 'react';
 import React from 'react';
+import GNB from '../components/GNB';
 
 
 
@@ -50,6 +51,7 @@ const useEffect1 = () => {
                 <b>NICKNAME: </b> {inputs.nickname}
             </div>
             {modal && <Modal />}
+            <GNB / >
         </>
     )
 }
