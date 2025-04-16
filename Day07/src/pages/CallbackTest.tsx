@@ -8,8 +8,8 @@ const CallbackTest = () => {
         try {
             const response = await new Promise<number>((resolve, reject) => {
                 setTimeout(() => {
-                    if (number >= 50) {
-                        reject(new Error('50이상의 수는 처리할 수 없습니다.'))
+                    if (number > 50) {
+                        reject(new Error('50초과의 수는 처리할 수 없습니다.'))
                     } else {
                         resolve(number + 1)
                     }
