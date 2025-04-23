@@ -1,0 +1,27 @@
+import "./style.css";
+import { Routes, Route } from "react-router-dom";
+import Header from "./components/Header";
+import Card from "./components/Card";
+import NoPage from "./components/NoPage.jsx";
+import CardList from "./CardList";
+import Home from "./components/Home";
+import Rooms from "./Rooms";
+import Routing from "./Routing.js";
+import About from "./components/About";
+
+export default function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Routing />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/header" element={<Header />} />
+        <Route path="/cardlist" element={<CardList />} />
+        <Route path="/card" element={<Card room={Rooms[0]} />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </div>
+  );
+}
