@@ -5,7 +5,6 @@ import Card from "./components/Card";
 import NoPage from "./components/NoPage.jsx";
 import CardList from "./CardList";
 import Home from "./components/Home";
-import Rooms from "./Rooms";
 import Routing from "./Routing.js";
 import About from "./components/About";
 import EventLoopTest from "./EventLoopTest.tsx";
@@ -19,7 +18,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/header" element={<Header />} />
         <Route path="/cardlist" element={<CardList />} />
-        <Route path="/card" element={<Card room={Rooms[0]} />} />
+        <Route path="/card/:roomId" element={<Card />} />
         <Route path="/about" element={<About />} />
         <Route path="/event-loop-test" element={<EventLoopTest />} />
         <Route path="*" element={<NoPage />} />
